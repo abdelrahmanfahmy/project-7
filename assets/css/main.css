@@ -1,0 +1,1546 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  /* ========== home-page Nav & content ========== */
+  .home-page{
+    width: 100%;
+    background-image: url(../img/Header.png);
+    background-size: cover;
+    background-color: rgb(247,249,254);
+  }
+  
+  .home-page .header{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-content: center;
+  }
+  
+  .home-page .header .logo{
+    width: 15%;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+  
+  .home-page .header .logo span{
+    color: rgb(245, 22, 33);
+  }
+  .home-page .header .nav ul{
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .home-page .header .nav ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 35px;
+  }
+  .home-page .header .nav ul .bars{
+    display: none;
+  }
+  .home-page .header .nav ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(4, 8, 223);
+    
+  }
+  .home-page .header .nav ul li :hover{
+    color: red;
+    transition: 0.5s;
+  }
+  
+  .home-page .header .nav button{
+    background-color: rgb(0,123,255);
+    border: 0px;
+    border-radius: 100px;
+    padding: 15px 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .home-page .header .nav button:hover{
+    cursor: pointer;
+    background-color: rgb(0,86,179);
+  }
+  /* =========== End of Nav ========== */
+  
+  .home-page .home-content{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+  
+  .home-page .home-content .hc-details{
+    width: 48%;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .home-page .home-content .hc-details .header-text{
+    width: 100%;
+    padding: 0px 15px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(80,101,142);
+  }
+  .home-page .home-content .hc-details .header-text .header-row1{
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .home-page .home-content .hc-details .header-text .header-row1>h2{
+    font-size: 85px;
+  }
+  .home-page .home-content .hc-details .header-text .header-row1 .header-textc{
+    padding-top: 20px;
+  }
+  .home-page .home-content .hc-details .header-text .header-row1 .header-textc>h4{
+    color: red;
+    font-size: 30px;
+  }
+  .home-page .home-content .hc-details .header-text .header-row1 .header-textc>h3{
+    font-size: 43px;
+  }
+  .home-page .home-content .hc-details .header-text .header-row2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.705);
+    font-weight: lighter;
+    line-height: 1.5;
+    margin-bottom: 45px;
+  }
+  
+  .home-page .home-content .hc-details .header-text .header-row3{
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .home-page .home-content .hc-details .header-text .header-row3 .co-btn,
+  .home-page .home-content .hc-details .header-text .header-row3 .co-a{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+  }
+  .home-page .home-content .hc-details .header-text .header-row3 .co-btn button{
+    background-color: rgb(0,123,255);
+    color: white;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 100px;
+    font-size: 19px;
+  }
+  .home-page .home-content .hc-details .header-text .header-row3 .co-btn button:hover{
+    cursor: pointer;
+    background-color: rgb(0,86,179);
+  }
+  .home-page .home-content .hc-details .header-text .header-row3 .co-a a{
+    text-decoration: none;
+    color: rgb(0,123,255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+  }
+  .home-page .home-content .hc-details .header-text .header-row3 .co-a a:hover{
+    text-decoration: underline;
+    color: rgb(0,86,179);
+  }
+  .home-page .home-content .hc-details .header-text .header-row4{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  .home-page .home-content .hc-details .header-text .header-row4 div{
+    width: calc(95% / 3);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .home-page .home-content .hc-details .header-text .header-row4 div h6{
+    font-size: 16px;
+    color: rgb(125,146,187);
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  .home-page .home-content .hc-details .header-text .header-row4 div h4{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .home-page .home-content .hc-details .header-text .header-row5{
+    color: rgb(125,146,187);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .home-page .home-content .hc-details .header-text .header-row5 h6{
+    font-size: 13px;
+    font-weight: 200;
+  }
+  .home-page .home-content .hc-image{
+    width: 48%;
+  }
+  .home-page .home-content .hc-image .header-img{
+    width: 100%;
+  }
+  .home-page .home-content .hc-image .header-img img{
+    width: 100%;
+  }
+  
+  /* ========== End of home-page top content ========== */
+  
+  .card-2{
+    width: 100%;
+  }
+  .card-2 .about{
+    width: 65%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: rgb(80,101,142);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .card-2 .about .about-text{
+    width: 60%;
+  }
+  .card-2 .about .about-text h3{
+    color: rgb(63,111,253);
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  .card-2 .about .about-text h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+  
+  }
+  .card-2 .about .about-text p{
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .card-2 .about .about-text .about-text-p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .card-2 .about .about-list{
+    width: 33%;
+    text-align: center;
+  }
+  .card-2 .about .about-list ul{
+    list-style-type: none;
+    text-align: left;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  .card-2 .about .about-list ul>li{
+    font-size: 22px;
+    font-weight: bold;
+    border: 1px solid rgba(77, 77, 77, 0.2);
+    padding: 20px 18px;
+  }
+  .card-2 .about .about-list ul a{
+    text-decoration: none;
+    color: rgb(0,123,255);
+  }
+  .card-2 .about .about-list ul a:hover{
+    text-decoration: underline;
+    color: rgb(0,86,179);
+  }
+  .card-2 .about .about-list ul a li{
+    border: 1px solid rgba(77, 77, 77, 0.2);
+    padding: 20px 25px;
+  }
+  .card-2 .about .about-list ul a li i{
+    float: right;
+  }
+  
+  /* =========== End of card-2 ============ */
+  
+  .card-3{
+    width: 100%;
+    background-color: rgb(247,249,254);
+  }
+  .card-3 .spread{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(80,101,142);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .card-3 .spread .spread-text{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .card-3 .spread .spread-text h5{
+    color: rgb(0,123,255);
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .card-3 .spread .spread-text h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  
+  .card-3 .spread .spread-text p{
+    margin-bottom: 15px;
+  }
+  .card-3 .spread .mini-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .card-3 .spread .mini-cards .mini-card{
+    width: calc(90% / 3);
+    background-color: rgb(255,255,255);
+    border: 1px solid rgba(31, 31, 31, 0.2);
+    transition: 0.5s;
+  }
+  .card-3 .spread .mini-cards .mini-card:hover{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .card-3 .spread .mini-cards .mini-card img{
+    width: 100%;
+    background-color: rgb(247,249,254);
+    border-bottom: 5px solid rgb(110,159,255);
+  }
+  .card-3 .spread .mini-cards .mini-card div{
+    padding: 15px;
+  }
+  .card-3 .spread .mini-cards .mini-card div h5{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+  }
+  .card-3 .spread .spread-btn{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .card-3 .spread .spread-btn button{
+    background-color: rgb(0,123,255);
+    color: white;
+    padding: 20px 15px;
+    border: 0;
+    border-radius: 100px;
+    font-size: 19px;
+  }
+  .card-3 .spread .spread-btn button i{
+    margin-right: 30px;
+  }
+  .card-3 .spread .spread-btn button:hover{
+    cursor: pointer;
+    background-color: rgb(0,86,179);
+  }
+  
+  /* =========== End of card-3 ============ */
+  
+  .card-4{
+    width: 100%;
+  }
+  
+  .card-4 .symptoms{
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    color: rgb(80,101,142);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .card-4 .symptoms .symptoms-text{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .card-4 .symptoms .symptoms-text h5{
+    color: rgb(118,145,249);
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .card-4 .symptoms .symptoms-text h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .card-4 .symptoms .symptoms-text p{
+    margin-bottom: 20px;
+  }
+  .card-4 .symptoms .mini-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+  .card-4 .symptoms .mini-cards .mini-card{
+    width: calc(90% / 3);
+    padding: 50px;
+    box-shadow: 0px 1px 2px rgba(20, 20, 20, 0.2);
+  }
+  
+
+  .card-4 .symptoms .mini-cards .mini-card div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .card-4 .symptoms .mini-cards .mini-card div h5{
+    width: 100%;
+    color: #7691f9;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .card-4 .symptoms .mini-cards .mini-card div .image{
+    width: 100%;
+  }
+  .card-4 .symptoms .mini-cards .mini-card div .image img{
+    width: 90px;
+    height: 90px;
+    float: right;
+    border-radius: 50%;
+  }
+  
+  .card-4 .symptoms .mini-cards .mini-card p{
+    color: rgb(61,75,105);
+    transition: 0.5s;
+  }
+  .card-4 .symptoms .mini-cards .mini-card p:hover{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .card-4 .symptoms .mini-cards .mini-card p span{
+    font-weight: bold;
+  }
+  
+  .card-4 .symptoms .symptoms-last{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card-4 .symptoms .symptoms-last .left-caution{
+    display: flex;
+    margin: 0px 5px;
+    width: 50%;
+    line-height: 1.3;
+  }
+  .card-4 .symptoms .symptoms-last .left-caution i{
+    font-size: 80px;
+    margin-right: 10px;
+    transition: 0.5s;
+  }
+  .card-4 .symptoms .symptoms-last .left-caution i:hover{
+    color: red;
+    transition: 0.5s;
+    cursor: pointer
+  }
+  
+
+  
+  .card-4 .symptoms .symptoms-last .left-caution p{
+    padding: 5px;
+    color: rgb(61,75,105);
+  }
+  .card-4 .symptoms .symptoms-last .left-caution p span{
+    color: rgb(0,123,255);
+    font-weight: bold;
+  }
+  .card-4 .symptoms .symptoms-last .symptom-btn{
+    padding: 15px;
+  }
+  .card-4 .symptoms .symptoms-last .symptom-btn button{
+    background-color: rgb(0,123,255);
+    color: white;
+    padding: 20px 15px;
+    border: 0;
+    border-radius: 100px;
+    font-size: 19px;
+  }
+  .card-4 .symptoms .symptoms-last .symptom-btn button i{
+    margin-right: 30px;
+  }
+  .card-4 .symptoms .symptoms-last .symptom-btn button:hover{
+    cursor: pointer;
+    background-color: rgb(0,86,179);
+  }
+  
+  /* =========== End of card-4 ============ */
+  
+  .card-5{
+    width: 100%;
+    background-color: rgb(247,249,254);
+  }
+  .card-5 .prev{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    color: rgb(80,101,142);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .card-5 .prev .prev-text{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .card-5 .prev .prev-text h5{
+    color: rgb(118,145,249);
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .card-5 .prev .prev-text h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .card-5 .prev .mini-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .card-5 .prev .mini-cards .mini-card{
+    padding: 0px 10px;
+    width: calc(90% / 4);
+  }
+  .card-5 .prev .mini-cards .mini-card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .card-5 .prev .mini-cards .mini-card h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+  }
+  .card-5 .prev .prev-btn{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+  }
+  .card-5 .prev .prev-btn button{
+    margin: auto;
+    background-color: rgb(0,123,255);
+    color: white;
+    padding: 20px 15px;
+    border: 0;
+    border-radius: 100px;
+    font-size: 19px;
+    margin-bottom: 30px;
+  }
+  .card-5 .prev .prev-btn button i{
+    margin-left: 30px;
+    font-weight: bold;
+  }
+  
+  .card-5 .prev .prev-btn button:hover{
+    cursor: pointer;
+    background-color: rgb(0,86,179);
+  }
+  .card-5 .prev .prev-btn a{
+    width: 100%;
+    text-decoration: none;
+    color: rgb(0,123,255);
+    font-weight: bold;
+  }
+  .card-5 .prev .prev-btn a:hover{
+    color: rgb(0,86,179);
+  }
+  .card-5 .prev .protect{
+    width: 100%;
+    background-color: rgb(255,255,255);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 20%);
+  }
+  .card-5 .prev .protect .pro-text{
+    width: 60%;
+    line-height: 1.6;
+  }
+  .card-5 .prev .protect .pro-text h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  .card-5 .prev .protect .pro-text ul{
+    list-style-type: none;
+  }
+  .card-5 .prev .protect .pro-text ul li{
+    margin: 10px;
+  }
+  .card-5 .prev .protect .pro-text ul li i{
+    color: rgb(82,201,139);
+  }
+  .card-5 .prev .protect .pro-text ul li span{
+    font-weight: bold;
+  }
+  .card-5 .prev .protect .pro-text ul li a{
+    color: rgb(0,123,255);
+  }
+  .card-5 .prev .protect .pro-text ul li a:hover{
+    color: rgb(0,86,179);
+  }
+  .card-5 .prev .protect .pro-img{
+    width: 35%;
+  }
+  .card-5 .prev .protect .pro-img img{
+    width: 100%;
+  }
+  .card-5 .prev .prev-text2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .card-5 .prev .prev-text2 h2{
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+  .card-5 .prev .prev-text2 a{
+    width: 100%;
+    text-decoration: none;
+    color: rgb(0,123,255);
+    font-weight: bold;
+  }
+  .card-5 .prev .prev-text2 a:hover{
+    color: rgb(0,86,179);
+  }
+  .card-5 .prev .steps{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  .card-5 .prev .steps .step{
+    text-align: center;
+    width: calc(95% / 6);
+  }
+  .card-5 .prev .steps .step img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .card-5 .prev .steps .step h6{
+    font-weight: bold;
+    font-size: 16px;
+  }
+  /* =========== End of card-5 ============ */
+  
+  .card-6{
+    width: 100%;
+    background-image: url(../img/Header.png);
+    background-size: cover;
+    background-color: rgb(39,102,187);
+    padding:  85px 0px;
+  }
+  .card-6 .treatment{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .card-6 .treatment .treat-text{
+    width: 55%;
+    color: rgb(255,255,255);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .card-6 .treatment .treat-text h5{
+    color: rgb(115,227,255);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .card-6 .treatment .treat-text h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .card-6 .treatment .treat-text p{
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  .card-6 .treatment .treat-text p span{
+    font-weight: bold;
+  }
+  .card-6 .treatment .treat-card{
+    width: 35%;
+    background-color: rgb(27,71,161);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    color: white;
+    padding: 40px;
+    line-height: 1.5;
+  }
+  .card-6 .treatment .treat-card h6,
+  .card-6 .treatment .treat-card p{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .card-6 .treatment .treat-card ul{
+    list-style-type: none;
+  }
+  .card-6 .treatment .treat-card ul li{
+    margin-bottom: 10px;
+  }
+  
+  /* =========== End of card-6 ============ */
+  
+  .card-7{
+    width: 100%;
+    background-color: rgb(247,249,254);
+  }
+  .card-7 .do-and-dont{
+    width: 70%;
+    margin: auto;
+  }
+  .card-7 .do-and-dont .dos-text{
+    padding-top: 100px;
+    text-align: center;
+    color: #50658e;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+  }
+  .card-7 .do-and-dont .dos-text h6{
+    font-size: 19px;
+    color: rgb(42,129,234);
+    margin-bottom: 10px;
+  }
+  .card-7 .do-and-dont .dos-text h2{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+  }
+  .card-7 .do-and-dont .dos-text p{
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .card-7 .do-and-dont .dos-imgs{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 100px;
+  }
+  .card-7 .do-and-dont .dos-imgs .dos-left{
+    width: 25%;
+  }
+  .card-7 .do-and-dont .dos-imgs .dos-left .dont{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .card-7 .do-and-dont .dos-imgs .dos-left .dont p{
+    width: 70%;
+    padding: 25px 0px 0px 10px;
+    color: rgb(42,129,234);
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .card-7 .do-and-dont .dos-imgs .dos-left .dont i{
+    color: red;
+    font-weight: bold;
+  }
+  .card-7 .do-and-dont .dos-imgs .dos-left .dont img{
+    width: 80px;
+    height: 80px;
+    border: 2px solid blue;
+    border-radius: 50%;
+  }
+  .card-7 .do-and-dont .dos-imgs .middle{
+    width: 50%;
+  }
+  .card-7 .do-and-dont .dos-imgs .middle img{
+    width: 100%;
+  }
+  
+  .card-7 .do-and-dont .dos-imgs .dos-right{
+    width: 25%;
+  }
+  .card-7 .do-and-dont .dos-imgs .dos-right .do{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .card-7 .do-and-dont .dos-imgs .dos-right .do p{
+    width: 70%;
+    padding: 25px 0px 0px 10px;
+    color: rgb(42,129,234);
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .card-7 .do-and-dont .dos-imgs .dos-right .do i{
+    color: rgb(144, 238, 144);
+    font-weight: bold;
+  }
+  .card-7 .do-and-dont .dos-imgs .dos-right .do img{
+    width: 80px;
+    height: 80px;
+    border: 2px solid blue;
+    border-radius: 50%;
+  }
+  /* =========== End of card-7 ============ */
+  
+  .card-8{
+    width: 100%;
+  }
+  
+  .card-8 .faq{
+    width: 60%;
+    margin: auto;
+  }
+  
+  .card-8 .faq .faq-text{
+    padding-top: 100px;
+    text-align: center;
+    color: #50658e;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+  }
+  .card-8 .faq .faq-text h5{
+    color: rgb(0,123,255);
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .card-8 .faq .faq-text h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+  }
+  .card-8 .faq .faq-lists{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 100px;
+  }
+  .card-8 .faq .faq-lists .faq-l1{
+    width: 30%;
+  }
+  .card-8 .faq .faq-lists .faq-l1 ul{
+    list-style-type: none;
+  }
+  .card-8 .faq .faq-lists .faq-l1 ul a{
+    color: rgb(80,101,142);
+    text-decoration: none;
+  }
+  
+  .card-8 .faq .faq-lists .faq-l1 ul a li{
+    padding: 20px 10px;
+    border: 2px solid rgb(231,232,255);
+    border-radius: 8px;
+    margin: 10px 0px;
+    transition: 0.5s;
+  }
+  .card-8 .faq .faq-lists .faq-l1 ul a li:hover{
+    border: 2px solid white;
+    color: #020202f5;
+  }
+  .card-8 .faq .faq-lists .faq-l1 ul a li i{
+    float: right;
+  }
+  .card-8 .faq .faq-lists .faq-l2{
+    width: 68%;
+    border: 2px solid rgb(231,232,255);
+    border-radius: 8px;
+  }
+  .card-8 .faq .faq-lists .faq-l2 ul{
+    list-style-type: none;
+    background-color: rgb(247, 250, 254);
+  }
+  .card-8 .faq .faq-lists .faq-l2 ul a{
+    text-decoration: none;
+    color: rgb(70, 86, 117);
+  }
+  .card-8 .faq .faq-lists .faq-l2 ul a li{
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(231,232,255);
+  }
+  .card-8 .faq .faq-lists .faq-l2 ul a li h6{
+    padding: 20px;
+    font-size: 17px;
+  }
+  .card-8 .faq .faq-lists .faq-l2 ul a li h6 i{
+    float: right;
+  }
+  .card-8 .faq .faq-lists .faq-l2 ul a li h6:hover{
+    color: #ff0000d2;
+    transition: 0.5s;
+  }
+  /* =========== End of card-8 ============ */
+  
+  .card-9{
+    width: 100%;
+    background-color: rgb(247,249,254);
+  }
+  .card-9 .news{
+    width: 70%;
+    margin: auto;
+    padding: 100px 0px;
+    color: rgb(80,101,142);
+  }
+  .card-9 .news .news-text{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .card-9 .news .news-text h5{
+    font-size: 20px;
+    color: rgb(0,123,255);
+    margin-bottom: 15px;
+  }
+  .card-9 .news .news-text h3{
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+  }
+  .card-9 .news .news-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .card-9 .news .news-cards .card{
+    width: calc(90% / 3);
+    background-color: white;
+    padding: 20px 5px;
+    text-align: center;
+  }
+  .card-9 .news .news-cards .card img{
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  .card-9 .news .news-cards .card .card-text{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 10px;
+  }
+  .card-9 .news .news-cards .card .card-text h5{
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .card-9 .news .news-cards .card .card-text p{
+    color:rgb(61,75,105);
+    line-height: 1.5;
+  }
+  /* =========== End of card-9 ============ */
+  .card-10{
+    width: 100%;
+    background-image: url(../img/Header.png);
+    background-size: cover;
+    background-color: rgb(21,28,46);
+    padding: 80px 0px;
+  }
+  .card-10 .footer{
+    width: 70%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(178,191,224);
+  }
+  .card-10 .footer .footer-top{
+    display: flex;
+  }
+  .card-10 .footer .footer-top .footer-text1{
+    width: 35%;
+  }
+  .card-10 .footer .footer-top .footer-text1 h2{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .card-10 .footer .footer-top .footer-text1 h2 i{
+    color: rgb(220,53,69);
+    margin: 0px 10px;
+  }
+  .card-10 .footer .footer-top .footer-text1 h2 span{
+    color: rgb(75,102,144);
+  }
+  .card-10 .footer .footer-top .footer-text1 p{
+    line-height: 1.2;
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+  .card-10 .footer .footer-top .footer-text1 p a{
+    font-size: 13px;
+  }
+  .card-10 .footer .footer-top .footer-text1 a{
+    color: rgb(178,191,224);
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  .card-10 .footer .footer-top .footer-text1 a i:hover{
+    color: rgb(143, 143, 241);
+  }
+  .card-10 .footer .footer-top .footer-text2{
+    width: calc(65% / 3);
+    margin-top: 25px;
+    padding: 0px 15px;
+  }
+  .card-10 .footer .footer-top .footer-text2 h6{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+  .card-10 .footer .footer-top .footer-text2 a{
+    text-decoration: none;
+    color: rgb(178,191,224);
+    font-size: 13px;
+    line-height: 34px;
+  }
+  
+  .card-10 .footer .footer-top .footer-text{
+    width: calc(65% / 3);
+    margin-top: 25px;
+    padding: 0px 15px;
+  }
+  .card-10 .footer .footer-top .footer-text h6{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+  .card-10 .footer .footer-top .footer-text a{
+    text-decoration: none;
+    color: rgb(178,191,224);
+    font-size: 13px;
+    line-height: 25px;
+  }
+  .card-10 .footer hr{
+    color: rgb(107, 115, 136);
+    border: 1px solid rgb(107, 115, 136);
+    width: 100%;
+    height: 0;
+    margin: 50px 0px;
+  }
+  .card-10 .footer .footer-bottom{
+    width: 100%;
+  }
+  .card-10 .footer .footer-bottom p{
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-size: 13px;
+  }
+  .card-10 .footer .footer-bottom p span{
+    color: white;
+  }
+  /* =========== End of card-10 ============ */
+  
+  /* ========== MEDIA ========== */
+  
+  /* ===== 1500 ===== */
+  @media(max-width: 1500px){
+    .home-page .header{
+      width: 80%;
+    }
+    .home-page .header .logo{
+      width: 20%;
+    }
+    .home-page .home-content{
+      width: 80%;
+    }
+    .home-page .header .nav ul li{
+      margin-right: 25px;
+    }
+    .card-2 .about{
+      width: 80%;
+    }
+    .card-3 .spread{
+      width: 80%;
+    }
+    .card-4 .symptoms{
+      width: 80%;
+    }
+    .card-5 .prev{
+      width: 85%;
+      padding: 30px 20px;
+    }
+    .card-7 .do-and-dont{
+      width: 80%;
+    }
+    .card-8 .faq{
+      width: 75%;
+    }
+    .card-9 .news{
+      width: 80%;
+    }
+    .card-10 .footer{
+      width: 80%;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  /* ===== 1200 ===== */
+  @media(max-width: 1200px) {
+    .home-page .header{
+      width: 90%;
+    }
+    .home-page .home-content{
+      width: 100%;
+    }
+    .home-page .header .nav ul li{
+      margin-right: 15px;
+    }
+    .card-2 .about{
+      width: 90%;
+    }
+    .card-2 .about .about-list{
+      width: 38%;
+    }
+    .card-3 .spread{
+      width: 90%;
+    }
+    .card-4 .symptoms{
+      width: 90%;
+    }
+    .card-5 .prev{
+      width: 95%;
+      padding: 30px 10px;
+    }
+    .card-6 .treatment{
+      width: 95%;
+    }
+    .card-7 .do-and-dont{
+      width: 90%;
+    }
+    .card-8 .faq{
+      width: 90%;
+    }
+    .card-9 .news{
+      width: 90%;
+    }
+    .card-10 .footer{
+      width: 90%;
+    }
+  }
+  
+  
+  
+  
+  /* ===== 950 ===== */
+  @media(max-width: 950px) {
+    .home-page .header{
+      padding: 25px 5px;
+    }
+    .home-page .header .logo{
+      width: 50%;
+    }
+    .home-page .header .nav ul li,
+    .home-page .header .nav button{
+      display: none;
+    }
+    .home-page .header .nav ul .bars{
+      display: inline-block;
+      font-size: 24px;
+    }
+    .home-page .home-content .hc-details{
+      width: 70%;
+      margin: auto;
+      margin-bottom: 50px;
+    }
+    .home-page .home-content .hc-image{
+      width: 70%;
+      margin: auto;
+      margin-bottom: 50px;
+    }
+    .card-2 .about{
+      width: 90%;
+      margin: auto;
+      flex-wrap: wrap;
+      padding: 30px 5px;
+    }
+    .card-2 .about .about-text{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .card-2 .about .about-list{
+      width: 50%;
+      margin: auto;
+    }
+    .card-3 .spread{
+      width: 100%;
+    }
+    .card-3 .spread .mini-cards .mini-card{
+      width: 60%;
+      margin-bottom: 20px;
+    }
+    .card-4 .symptoms{
+      padding: 30px 5px;
+    }
+    .card-4 .symptoms .mini-cards{
+      flex-wrap: wrap;
+    }
+    .card-4 .symptoms .mini-cards .mini-card{
+      width: 70%;
+      margin-bottom: 10px;
+    }
+    .card-4 .symptoms .symptoms-last .left-caution{
+      width: 70%;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    
+    .card-4 .symptoms .symptoms-last .symptom-btn{
+      width: 70%;
+      margin: auto;
+      text-align: center;
+    }
+    .card-5 .prev{
+      width: 100%;
+      padding: 30px 0px;
+    }
+    .card-5 .prev .mini-cards{
+      justify-content: space-around;
+    }
+    .card-5 .prev .mini-cards .mini-card{
+      width: 80%;
+      margin-bottom: 20px;
+    }
+    .card-5 .prev .protect{
+      justify-content: space-around;
+      padding: 20px 5px;
+    }
+    .card-5 .prev .protect .pro-text{
+      width: 95%;
+      margin-bottom: 20px;
+    }
+    .card-5 .prev .protect .pro-img{
+      width: 60%;
+    }
+    .card-5 .prev .steps{
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .card-5 .prev .steps .step{
+      width: calc(95% / 3);
+      margin-bottom: 30px;
+    }
+    .card-6 .treatment{
+      flex-wrap: wrap;
+    }
+    .card-6 .treatment .treat-text{
+      width: 80%;
+    }
+    .card-6 .treatment .treat-card{
+      width: 80%;
+    }
+    .card-7 .do-and-dont .dos-imgs{
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .card-7 .do-and-dont .dos-imgs .dos-left{
+      width: 40%;
+    }
+    .card-7 .do-and-dont .dos-imgs .middle{
+      width: 70%;
+    }
+    .card-7 .do-and-dont .dos-imgs .dos-right{
+      width: 40%;
+    }
+    .card-7 .do-and-dont .dos-imgs .dos-left .dont{
+      flex-direction: row-reverse;
+    }
+    .card-8 .faq{
+      width: 95%;
+    }
+    .card-8 .faq .faq-lists{
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .card-8 .faq .faq-lists .faq-l1{
+      width: 60%;
+      margin-bottom: 20px;
+    }
+    .card-8 .faq .faq-lists .faq-l2{
+      width: 80%;
+      height: 500px;
+    }
+    .card-9 .news{
+      width: 95%;
+    }
+    .card-9 .news .news-cards{
+      flex-wrap: wrap;
+    }
+    .card-9 .news .news-cards .card{
+      width: 70%;
+    }
+  }
+  
+  
+  
+  /* ===== 750px ===== */
+  @media(max-width: 750px){
+    .home-page .home-content .hc-details{
+      width: 90%;
+    }
+    .home-page .home-content .hc-image{
+      width: 90%;
+    }
+    .card-2 .about .about-list{
+      width: 80%;
+    }
+    .card-4 .symptoms .mini-cards .mini-card{
+      width: 80%;
+    }
+    .card-4 .symptoms .symptoms-last .left-caution{
+      width: 80%;
+    }
+    
+    .card-4 .symptoms .symptoms-last .symptom-btn{
+      width: 80%;
+    }
+    .card-5 .prev .mini-cards .mini-card{
+      width: 90%;
+    }
+    .card-5 .prev .steps .step{
+      width: calc(95% / 2);
+    }
+    .card-7 .do-and-dont .dos-imgs .dos-left{
+      width: 60%;
+    }
+    .card-7 .do-and-dont .dos-imgs .middle{
+      width: 90%;
+    }
+    .card-7 .do-and-dont .dos-imgs .dos-right{
+      width: 60%;
+    }
+    .card-8 .faq .faq-lists .faq-l1{
+      width: 80%;
+    }
+    .card-8 .faq .faq-lists .faq-l2{
+      width: 95%;
+    }
+    .card-10 .footer .footer-top{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .card-10 .footer .footer-top .footer-text1{
+      width: 50%;
+    }
+    .card-10 .footer .footer-top .footer-text2,
+    .card-10 .footer .footer-top .footer-text{
+      width: 40%;
+    }
+    
+  }
+  
+  /* ===== 600px ===== */
+  @media(max-width: 600px){
+    .home-page .home-content .hc-details{
+      width: 100%;
+    }
+    .home-page .home-content .hc-image{
+      width: 100%;
+    }
+    .home-page .home-content .hc-details .header-text{
+      padding: 0px;
+    }
+    .home-page .home-content .hc-details .header-text .header-row1{
+      flex-wrap: wrap;
+    }
+    .home-page .home-content .hc-details .header-text .header-row1>h2,
+    .home-page .home-content .hc-details .header-text .header-row1 .header-textc {
+      width: 100%;
+      text-align: center;
+      padding: 0px;
+    }
+    .home-page .home-content .hc-details .header-text .header-row2 p{
+      text-align: center;
+    }
+    .card-2 .about .about-text{
+      text-align: center;
+    }
+    .card-2 .about .about-list{
+      width: 100%;
+    }
+    .card-3 .spread .mini-cards .mini-card{
+      width: 70%;
+    }
+    .card-4 .symptoms .mini-cards .mini-card{
+      width: 90%;
+      padding: 50px 5px;
+    }
+    .card-4 .symptoms .symptoms-last .left-caution{
+      width: 90%;
+    }
+    
+    .card-4 .symptoms .symptoms-last .symptom-btn{
+      width: 90%;
+    }
+    .card-5 .prev .mini-cards .mini-card{
+      width: 95%;
+    }
+    .card-6 .treatment .treat-text{
+      width: 90%;
+      text-align: center;
+    }
+    .card-7 .do-and-dont .dos-imgs .dos-left{
+      width: 75%;
+    }
+    .card-7 .do-and-dont .dos-imgs .middle{
+      width: 90%;
+    }
+    .card-7 .do-and-dont .dos-imgs .dos-right{
+      width: 75%;
+    }
+    .card-8 .faq .faq-lists .faq-l1{
+      width: 95%;
+    }
+    .card-8 .faq .faq-lists .faq-l2{
+      width: 100%;
+      line-height: 1.3;
+    }
+  }
+  /* ===== 450px ===== */
+  @media(max-width: 450px){
+    .home-page .header .logo{
+      width: 80%;
+    }
+    .home-page .home-content .hc-details .header-text .header-row3{
+      flex-wrap: wrap;
+    }
+    .home-page .home-content .hc-details .header-text .header-row3 .co-btn{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .home-page .home-content .hc-details .header-text .header-row3 .co-a{
+      width: 100%;
+    }
+    .home-page .home-content .hc-details .header-text .header-row4{
+      flex-wrap: wrap;
+    }
+    .home-page .home-content .hc-details .header-text .header-row4 div{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .card-2 .about{
+      padding: 30px 15px;
+    }
+  
+    .card-2 .about .about-list ul a li{
+      padding: 20px 10px;
+    }
+    .card-3 .spread .mini-cards .mini-card{
+      width: 85%;
+    }
+    .card-3 .spread .spread-btn button{
+      padding: 20px 10px;
+    }
+    .card-3 .spread .spread-btn button i{
+      margin-right: 10px;
+    }
+    .card-4 .symptoms .mini-cards .mini-card{
+      width: 98%;
+    }
+    .card-4 .symptoms .symptoms-last .left-caution{
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    .card-4 .symptoms .symptoms-last .left-caution i{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .card-4 .symptoms .symptoms-last .left-caution p{
+      width: 100%;
+    }
+    .card-4 .symptoms .symptoms-last .symptom-btn button{
+      padding: 20px 8px;
+    }
+    .card-4 .symptoms .symptoms-last .symptom-btn button i{
+      margin-right: 10px;
+    }
+    .card-5 .prev .steps .step{
+      width: 95%;
+    }
+    .card-6 .treatment .treat-text{
+      width: 95%;
+    }
+    .card-6 .treatment .treat-card{
+      width: 95%;
+      padding: 40px 20px;
+    }
+    .card-7 .do-and-dont .dos-imgs .dos-left{
+      width: 90%;
+    }
+    .card-7 .do-and-dont .dos-imgs .middle{
+      width: 95%;
+    }
+    .card-7 .do-and-dont .dos-imgs .dos-right{
+      width: 90%;
+    }
+    .card-10 .footer .footer-top .footer-text1,
+    .card-10 .footer .footer-top .footer-text2,
+    .card-10 .footer .footer-top .footer-text{
+      width: 100%;
+      text-align: center;
+    }
+  }
+  /* ===== 380px to adjust font ===== */
+  @media(max-width: 380px) {
+    .home-page .home-content .hc-details .header-text .header-row1>h2{
+      font-size: 75px;
+    }
+    .card-2 .about .about-text h2{
+      font-size: 35px;
+    }
+    .card-3 .spread .spread-text h2{
+      font-size: 35px;
+    }
+    .card-4 .symptoms .symptoms-text h3{
+      font-size: 25px;
+    }
+    .card-5 .prev .prev-text h3{
+      font-size: 25px;
+    }
+    .card-6 .treatment .treat-text h2{
+      font-size: 35px;
+    }
+  }
